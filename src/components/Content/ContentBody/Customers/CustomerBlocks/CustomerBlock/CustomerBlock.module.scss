@@ -1,0 +1,35 @@
+.customerBlock {
+    width: 30%;
+    text-align: center;
+    position: relative;
+    transition: 0.5s;
+    margin: 50px 0 0 0;
+    &:hover {
+        transform: scale(1.1);
+    }
+    .avatar {
+        margin: 0 0 5px 0;
+        img {
+            margin: auto;
+        }
+    }
+    .name {
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .img {
+        img {
+            margin: auto;
+        }
+    }
+    .title {
+        width: 50%;
+        margin: auto;
+    }
+    .text {
+        margin: 30px 0 0 0;
+    }
+    .webSite {
+        margin: 20px 0 0 0;
+    }   
+}

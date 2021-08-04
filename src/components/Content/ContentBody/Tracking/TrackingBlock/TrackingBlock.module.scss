@@ -1,0 +1,27 @@
+.trackingBlock {
+    margin: 0 0 25px 0;
+    .topsSections {
+        margin: 0 0 8px 0;
+        display: flex;
+        align-items: center;
+        .iconContainer {
+            .icon {
+                font-size: 30px;
+                text-align: center;
+            }
+            margin: 0 15px 0 0;
+            background: #DEF5FF;
+            border-radius: 50%;
+            text-align: center;
+            height: 28px;
+            width: 28px;
+        }   
+        .title {
+            font-size: 18px;
+            font-weight: 500;
+        }
+    }
+    .text {
+        font-size: 16px;
+    }
+}

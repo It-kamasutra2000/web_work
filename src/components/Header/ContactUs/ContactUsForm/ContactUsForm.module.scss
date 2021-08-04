@@ -1,0 +1,11 @@
+.form {
+    label {
+        font-size: 18px;
+    }
+    input, textarea {
+        margin: 5px 20px 0 0;
+    }
+    .error {
+      color: red;
+    }
+}

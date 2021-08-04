@@ -1,0 +1,24 @@
+.features {
+    margin: 100px 0 0 0;
+    .goToFeatures {
+        margin: 0 0 100px 0;
+        height: 1px;
+    }
+    h1 {
+        margin: auto;
+        outline: 0px solid red;
+        width: 70%;
+        font-size: 50px;
+        line-height: 70px;
+        text-align: center;
+        margin-bottom: 100px;
+    }
+    .featureBlocks {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        width: 70%;
+        margin: auto;
+    }
+}

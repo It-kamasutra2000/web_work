@@ -1,0 +1,38 @@
+.selectYourColor {
+    position: fixed;
+    left: -190px;
+    top: 200px;
+    outline: 0px solid red;
+    display: flex;
+    align-items: flex-start;
+    transition: 0.5s;
+    &.active {
+        left: 0;
+    }
+    .leftSide {
+        width: 190px;
+        padding: 18px;
+        border: 1px solid #d9d9d9;
+        .title {
+            font-size: 18px;
+            font-weight: bold;
+            margin: 0 0 10px 0;
+        }
+        .colors {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+    }
+    .rightSide {
+        width: 45px;
+        height: 45px;
+        background-color: #353348;
+        cursor: pointer;
+        .icon {
+            color: white;
+            font-size: 30px;
+            text-align: center;
+        }
+    }
+}

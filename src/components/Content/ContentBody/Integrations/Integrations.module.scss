@@ -1,0 +1,49 @@
+.integrations {
+    margin: 100px 0 0 0;
+    .goToIntegrations {
+        margin: 0 0 100px 0;
+        height: 1px;
+    }
+    .integrationsBody {
+        display: flex;
+        justify-content: space-between;
+        .leftSide {
+            width: 40%;
+            h1 {
+                margin-bottom: 50px;
+                outline: 0px solid red;
+                width: 70%;
+                font-size: 50px;
+                line-height: 70px;
+            }
+            .text {
+                font-size: 18px;
+            }
+        }
+        .rightSide {
+            width: 50%;
+            outline: 0px solid red;
+            position: relative;
+            img {
+                width: 100%;
+            }
+            .integrationsButton {
+                position: absolute;
+                right: 0;
+                bottom: 0;
+                transition: 0.5s;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 200px;
+                height: 40px;
+                font-size: 18px;
+                outline: 0px solid red;
+                border-radius: 8px;
+                a {
+                    color: white;
+                }
+            }
+        }
+    }
+}

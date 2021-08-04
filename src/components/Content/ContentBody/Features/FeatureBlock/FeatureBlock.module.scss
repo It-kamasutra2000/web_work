@@ -1,0 +1,51 @@
+.featureBlock {
+    width: 30%;
+    min-height: 250px;
+    border-radius: 20px;
+    border: 1px solid #d9d9d9;
+    outline: 0px solid red;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    box-shadow: -15px 10px #f0f0f0;
+    overflow: hidden;
+    position: relative;
+    transition: 0.3s ease-in-out;
+    &.active {
+        height: 300px;
+        background: #e6f7ff;
+    }
+    .featuresHover {
+        outline: 0px solid red;
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 0;
+        transition: 1s;
+    }
+
+    .title {
+        margin: 20px 0 0 0;
+        font-size: 18px;
+        width: 60%;
+        text-align: center;
+        font-weight: 500;
+    }
+    .icon {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        margin: 15px;
+        font-size: 35px;
+        outline: 0px solid red;
+        height: 30px;
+    }
+    .text {
+        margin: 20px 0 30px 0;
+        text-align: center;
+        width: 80%;
+    }
+}

@@ -1,0 +1,13 @@
+.page {
+    a {
+        color: #ACAEC4;
+        margin: 0 20px 0 0;
+        font-size: 18px;
+        &:hover {
+            color: #00c2ff;
+        }
+        &.active {
+            color: #00c2ff;
+        }
+    }
+}
